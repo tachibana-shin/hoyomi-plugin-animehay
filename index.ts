@@ -323,7 +323,7 @@ const globalFilters: Filter[] = [
 class AnimeHay extends ABEigaService {
   override init: ServiceInit = {
     name: "AnimeHay",
-    faviconUrl: createOImage("https://animehay.ceo/favicon.ico"),
+    faviconUrl: createOImage("/themes/img/favicon.ico"),
     rootUrl: "https://animehay.ceo/",
     version,
     description
