@@ -321,12 +321,14 @@ const globalFilters: Filter[] = [
 ]
 
 class AnimeHay extends ABEigaService {
+  override writeWith = "typescript"
   override init: ServiceInit = {
     name: "AnimeHay",
     faviconUrl: createOImage("/themes/img/favicon.ico"),
     rootUrl: "https://animehay.ceo/",
     version,
-    description
+    description,
+    language: "vi"
   }
   async getURL(eigaId: string, chapterId?: string): Promise<string> {
     if (!chapterId) return `${this.baseUrl}/thong-tin-phim/${eigaId}.html`

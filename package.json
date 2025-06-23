@@ -16,7 +16,7 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "@hoyomi/bridge_ts": "^0.0.3",
+    "@hoyomi/bridge_ts": "^0.0.5",
     "cheerio": "^1.1.0"
   }
 }
