@@ -1,0 +1,22 @@
+{
+  "name": "hoyomi-plugin-animehay",
+  "version": "0.0.1",
+  "description": "Plugin https://animehay.ceo for Hoyomi app",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build index.ts --outfile=dist/index.js --minify",
+    "release": "bumpp"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bumpp": "^10.2.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@hoyomi/bridge_ts": "^0.0.3",
+    "cheerio": "^1.1.0"
+  }
+}
