@@ -386,7 +386,7 @@ class AnimeHay extends ABEigaService {
             Array.from({ ...params.filters, length: 4 }).join(",")
           )}`
         : params.categoryId.replace("_", "/") +
-          (params.page > 1 ? "" : `trang-${params.page}`) +
+          (params.page > 1 ? "" : `/trang-${params.page}`) +
           ".html"
 
     const html = await fetch(url).then((res) => res.text())
