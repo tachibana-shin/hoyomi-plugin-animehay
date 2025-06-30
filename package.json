@@ -1,6 +1,6 @@
 {
   "name": "hoyomi-plugin-animehay",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Plugin https://animehay.ceo for Hoyomi app",
   "module": "index.ts",
   "type": "module",
