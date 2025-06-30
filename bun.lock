@@ -4,7 +4,7 @@
     "": {
       "name": "animehay",
       "dependencies": {
-        "@hoyomi/bridge_ts": "^0.0.5",
+        "@hoyomi/bridge_ts": "^0.0.6",
         "cheerio": "^1.1.0",
       },
       "devDependencies": {
@@ -17,7 +17,7 @@
     },
   },
   "packages": {
-    "@hoyomi/bridge_ts": ["@hoyomi/bridge_ts@0.0.5", "", { "dependencies": { "bumpp": "^10.2.0" }, "peerDependencies": { "typescript": "^5" } }, "sha512-5+uQNYcH9rqky5BrMN227vW+a8IioEg1I6kzUnHlFAhksNvhbM5J5dU33OKEsA4BrdOE59sOyyZNx3cxTCA8YA=="],
+    "@hoyomi/bridge_ts": ["@hoyomi/bridge_ts@0.0.6", "", { "dependencies": { "bumpp": "^10.2.0" }, "peerDependencies": { "typescript": "^5" } }, "sha512-5T1tzqzq8bGvxjjkekYMoQJxBtb+mg2J6ByjrI08zepcGMJ2d7h4XsaCxA1unnKd6VQ4i5KDrU9QKmCVzPd6CA=="],
 
     "@types/bun": ["@types/bun@1.2.17", "", { "dependencies": { "bun-types": "1.2.17" } }, "sha512-l/BYs/JYt+cXA/0+wUhulYJB6a6p//GTPiJ7nV+QHa8iiId4HZmnu/3J/SowP5g0rTiERY2kfGKXEK5Ehltx4Q=="],
 
