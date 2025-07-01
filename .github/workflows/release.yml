@@ -31,7 +31,7 @@ jobs:
           
           git checkout -B release
 
-          find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+          find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name 'dist' -exec rm -rf {} +
 
           cp dist/index.js ./index.js
           cp package.json ./package.json
