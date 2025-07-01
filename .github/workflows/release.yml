@@ -34,7 +34,6 @@ jobs:
           find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name 'dist' ! -name 'package.json' -exec rm -rf {} +
 
           cp dist/index.js ./index.js
-          cp package.json ./package.json
 
           git add index.js package.json
           git commit -m "Release from ${{ github.ref_name }}" || echo "No changes to commit"
