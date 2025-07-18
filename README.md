@@ -1,5 +1,7 @@
 # animehay
 
+[![Click to Install Plugin for Hoyomi](https://img.shields.io/badge/Click%20to%20Install%20Plugin%20for%20Hoyomi-blue?style=for-the-badge)](https://intradeus.github.io/http-protocol-redirector?r=hoyomi://add-plugin/?url=https://github.com/tachibana-shin/hoyomi-plugin-hentaivn)
+
 To install dependencies:
 
 ```bash
